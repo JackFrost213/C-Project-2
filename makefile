@@ -1,4 +1,4 @@
-all: main.cpp
+all: main.cpp myfunc.cpp
 	g++ -c main.cpp myfunc.cpp
 	g++ -o myexe main.o myfunc.o
 	chmod a+x myexe
